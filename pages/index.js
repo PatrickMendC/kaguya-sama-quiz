@@ -37,7 +37,7 @@ export default function Home() {
         <meta property="og:description" content="Este é um quiz que tem o anime kaguya-sama como tema. Sendo ele desenvolvido em NextJS."/>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://kaguya-sama-quiz.patrickmendc.vercel.app/"/>
-        <meta property="og:image" content="kaguya-sama-quiz.png"/>
+        <meta property="og:image" content={db.bg}/>
       </Head>
       <QuizBackground theme={db.theme} backgroundImage={db.bg}>
         <QuizContainer>
